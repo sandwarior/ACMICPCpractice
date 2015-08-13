@@ -11,6 +11,8 @@ int main()
     len=b.length();
     len1=a.length();
     arr[0]=0;
+    
+    //creation of LPS array
     for(int j=0,i=1;i<len;i++)
     {
         if(b[i]==b[j])
